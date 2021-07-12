@@ -1,0 +1,14 @@
+module example{
+
+interface fibonacci{
+/*Codigo fibonacci CORBA
+*in: el valor del parametro se le envia el
+ *cliente al servidor
+ *long: -231...231-1 (32bits)
+ *numero: numero de la variable
+ */
+ 
+ String general(in long numero);
+    };
+ };
+
